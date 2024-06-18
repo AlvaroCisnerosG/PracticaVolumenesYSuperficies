@@ -1,0 +1,31 @@
+package test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+import clases.Cubo;
+
+class TestCubo {
+
+	static private Cubo c1;
+	static private Cubo c2;
+	
+	@BeforeAll
+	static void init() {
+		 c1 = new Cubo (2);
+		 c2 = new Cubo (0);
+	}
+	@Test 
+	void testSuperficie1() {
+		int superficieEsperada = 24;
+		int superficieObtenida = c1.Superficie();
+		assertEquals(superficieEsperada, superficieObtenida);
+	}
+	void testSuperficie2() {
+		int superficieEsperada = 0;
+		int superficieObtenida = c2.Superficie();
+		assertEquals(superficieEsperada, superficieObtenida);
+	}
+}

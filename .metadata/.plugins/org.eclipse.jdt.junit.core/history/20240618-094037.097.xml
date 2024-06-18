@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCubo" project="PracticaVolumenesYSuperficies" tests="1" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="test.TestCubo" incomplete="true" displayname="TestCubo" uniqueid="[engine:junit-jupiter]/[class:test.TestCubo]">
+    <error>java.lang.IllegalArgumentException: No puede ser menor o igual a cero&#13;
+	at clases.Cubo.&lt;init&gt;(Cubo.java:16)&#13;
+	at test.TestCubo.init(TestCubo.java:18)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)&#13;
+&#13;
+</error>
+    <testcase name="testSuperficie1" classname="test.TestCubo" incomplete="true" displayname="testSuperficie1()" uniqueid="[engine:junit-jupiter]/[class:test.TestCubo]/[method:testSuperficie1()]"/>
+  </testsuite>
+</testrun>
